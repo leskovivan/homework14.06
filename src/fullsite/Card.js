@@ -12,14 +12,16 @@ function Card(props){
 
 
 export function CardGroup(props){
-    return(
-
+    return(<div id="result">
+        <h2>КАТАЛОГ</h2>
         <div id="CardGroup">
-            <div id="GridTitle"><h2>КАТАЛОГ</h2> </div>
+            
             <div id="GridSpace"></div>
              
             {props.arr.map(item=> <Card item={item}></Card>)}
         </div>
+    </div>
+        
     );
     
 }

@@ -1,10 +1,16 @@
 #container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
+  width: 100%;
+  max-width: 1921px;        
+  margin: 0 auto;            
+  padding: 24px;           
+  box-sizing: border-box;     
 }
+
 #container h2 {
-  margin-bottom: 32px;
+  padding: 10px;
   text-align: left;
   padding-left: 0; 
+}
+*{
+  font-family: 'Montserrat', sans-serif;
 }

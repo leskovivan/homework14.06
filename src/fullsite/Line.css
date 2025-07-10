@@ -1,0 +1,34 @@
+.poloska {
+    background-color: #8BA8A4;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.moving-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left 15s linear infinite;
+}
+
+.moving-text span {
+    color: white;
+    margin-top: 0;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    white-space: pre;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

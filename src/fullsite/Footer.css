@@ -1,0 +1,14 @@
+#columndiv{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  gap: 60px;
+
+}
+#footer_result{
+  background-color: rgb(242, 242, 242);
+}
+#div_socialmedia{
+    display: flex;
+    margin-top: 50px;
+}

@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { CardGroup } from './Card';
+import { CardGroup } from './fullsite/Card';
+import { NewProducts } from './fullsite/NewProducts';
+import { Ideas } from './fullsite/Ideas';
+import { Footersite } from './fullsite/footer';
+import Start from './fullsite/start';
+import Line from './fullsite/line';
 const components = [
   { img: "Component 19.png" },
   { img: "Component 20.png"},
@@ -23,12 +28,19 @@ const components = [
 ];
 
 function App() {
+  
   return (
-    <div id="containter">
-      
-    <CardGroup arr={components}></CardGroup>
-   </div>
+    <div id="fullsite">
+    <Start></Start>
    
+    <div id="container">
+    <NewProducts></NewProducts>
+    <CardGroup arr={components}></CardGroup>
+    <Ideas></Ideas>
+    
+   </div>
+   <Footersite></Footersite>
+    </div>
   );
 }
 

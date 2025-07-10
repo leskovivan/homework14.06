@@ -1,0 +1,143 @@
+.site {
+    background-image: url('./background.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1026px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 3000px;
+}
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.left .logo img{
+    width: 112px;
+    height: 36px;
+}
+.comp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.menucomp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menucomp p{
+    margin: 0;
+}
+.right img,
+.left img {
+  width: 25px;
+  height: auto;
+}
+.searchbar{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 10px;
+}
+.comp span{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif !important; 
+    font-size: 14px;
+}
+.content {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.7
+}
+
+.proposition{
+    display: flex;
+    gap: 40px;
+}
+.position {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.top-badge {
+      position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: #8BA8A4;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    
+}
+.center h1{
+    font-weight: 600;
+    font-size: 96px;
+}
+.menu span{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.button{
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.first-button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 377px;
+    height: 60px;
+}
+.second-button{
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    width: 200px;
+    height: 60px;
+}
+.position img{
+    width: 100%;
+}
+.text{
+    width: 100%;
+    margin-left: 20px;
+    margin: 20px;
+}
+.text h4{
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+.text p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+}

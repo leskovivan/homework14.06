@@ -1,0 +1,22 @@
+#NewImages {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 200px;
+  gap: 15px;
+  padding: 0;
+}
+
+#NewImages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+
+#first  { grid-column: 1 / 3; grid-row: 1 / 2; }
+#second { grid-column: 3 / 6; grid-row: 1 / 2; }
+
+#third  { grid-column: 1 / 4; grid-row: 2 / 6; }
+#fourth { grid-column: 4 / 6; grid-row: 2 / 6; }
