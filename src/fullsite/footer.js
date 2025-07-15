@@ -39,10 +39,26 @@ export function Footersite(){
                 <p>3</p>
             </div>
             </div>
-            <div id="div_socialmedia">
+            <div className="socialmedia">
+                <div className='social_group'>
                 <a href="insta"><img src='insta.png'></img></a>
                 <a href="twitter"><img src='twitter.png'></img></a>
                 <a href="telegram"><img src='telegram.png'></img></a>
+            </div>
+            <div className='payment_group'>
+                <a href="visa"><img src='visa.png'></img></a>
+                <a href="mastercard"><img src='mastercard.png'></img></a>
+                <a href="maestro"><img src='maestro.png'></img></a>
+                <a href="paypal"><img src='paypal.png'></img></a>
+                <a href="applepay"><img src='applepay.png'></img></a>
+            </div>
+            </div>
+            <div className='bottom'>
+                <div className='main_elem'><span>Заголовок підрозділу</span></div>
+                <div className='elem'><span>Заголовок підрозділу</span></div>
+                <div className='elem'><span>Заголовок підрозділу</span></div>
+                <div className='elem'><span>Заголовок підрозділу</span></div>
+                <div className='elem'><span>Заголовок підрозділу</span></div>
             </div>
         </footer>
             </div>

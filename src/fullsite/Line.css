@@ -1,34 +1,125 @@
-.poloska {
-    background-color: #8BA8A4;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
-    padding: 5px;
 
+.poloska {
+  background-color: #8BA8A4;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  padding: 5px;
 }
 
 .moving-text {
-    display: inline-block;
-    white-space: nowrap;
-    animation: scroll-left 15s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 15s linear infinite;
 }
 
 .moving-text span {
-    color: white;
-    margin-top: 0;
-    font-size: 20px;
-    display: inline-block;
-    margin-right: 50px;
-    white-space: pre;
-    font-weight: 500;
-    line-height: 100%;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 50px;
+  white-space: pre;
+  font-weight: 500;
+  line-height: 100%;
 }
 
+
 @keyframes scroll-left {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: 0 auto;
+  max-width: 2100px; 
+}
+
+
+.searchbar {
+  width: 45% !important;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.searchbar input {
+  width: 45%;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.searchbar input:focus {
+  outline: none;
+  border: none;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.left,
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left .logo img {
+  width: 112px;
+  height: 36px;
+}
+
+.comp {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.menucomp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menucomp p {
+  margin: 0;
+}
+
+.right img,
+.left img {
+  width: 25px;
+  height: auto;
+}
+
+.comp span {
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 14px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 950px;
 }

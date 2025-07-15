@@ -8,7 +8,26 @@
 #footer_result{
   background-color: rgb(242, 242, 242);
 }
-#div_socialmedia{
+.socialmedia{
     display: flex;
     margin-top: 50px;
+}
+.social_group{
+  margin-right: 40px;
+}
+footer a{
+  margin-right: 20px;
+}
+.bottom{
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 20px;
+}
+.elem{
+  
+}
+.main_elem{
+
+  margin-right: 33%;
 }

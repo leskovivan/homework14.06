@@ -1,0 +1,23 @@
+.group{
+    width: 100%;
+    display: flex;
+    background: rgba(242, 242, 242, 1);
+    border-radius: 15px;
+}
+.main-image img{
+    width: 100%;
+    width: 939;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.main-txt{
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    gap: 10px;
+
+}
+.main-txt h2{
+    text-transform: uppercase;
+}

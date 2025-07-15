@@ -6,6 +6,12 @@ import { Ideas } from './fullsite/Ideas';
 import { Footersite } from './fullsite/footer';
 import Start from './fullsite/start';
 import Line from './fullsite/line';
+import Interesting_info from './fullsite/interesting_info';
+import Slider from './fullsite/Slider';
+import Ideas_to_do from './fullsite/ideas_to_do';
+import Additional_recomendations from './fullsite/Additional_recomendations';
+import Important_info from './fullsite/important_info';
+import ScrollToTopButton from './fullsite/ScrollToTopButton';
 const components = [
   { img: "Component 19.png" },
   { img: "Component 20.png"},
@@ -26,19 +32,52 @@ const components = [
   { img: "Component 35.png"},
   { img: "Component 36.png" }
 ];
+  const imageArray = [
+    '1.png',
+    '2.png',
+    '3.png',
+    '4.png',
+    '5.png',
+    '6.png',
+    '7.png',
+    '8.png',
+    '9.png',
+    '10.png'
+  ];
+  const imageArray2 = [
+    'second (1).png',
+    'second (2).png',
+    'second (3).png',
+    'second (4).png',
+    'second (5).png',
+    'second (6).png',
+    'second (7).png',
+    'second (8).png',
+    'second (9).png',
+    'second (10).png'
+  ];
+  
+
+
 
 function App() {
   
   return (
     <div id="fullsite">
+    
+    
     <Start></Start>
-   
     <div id="container">
+    <Interesting_info></Interesting_info>
+    <Slider images={imageArray} text={"РЕКОМЕНДАЦІЇ"}></Slider>
+    <Slider images={imageArray2} text={"НАЙКРАЩІ НАБОРИ"}></Slider>
     <NewProducts></NewProducts>
     <CardGroup arr={components}></CardGroup>
-    <Ideas></Ideas>
-    
+    <Ideas_to_do></Ideas_to_do>
+    <Additional_recomendations></Additional_recomendations>
+    <Important_info></Important_info>
    </div>
+   <ScrollToTopButton></ScrollToTopButton>
    <Footersite></Footersite>
     </div>
   );
