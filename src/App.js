@@ -12,6 +12,8 @@ import Ideas_to_do from './fullsite/ideas_to_do';
 import Additional_recomendations from './fullsite/Additional_recomendations';
 import Important_info from './fullsite/important_info';
 import ScrollToTopButton from './fullsite/ScrollToTopButton';
+import Main_site from './fullsite/main_site';
+import LogIn from './fullsite/LogIn';
 const components = [
   { img: "Component 19.png" },
   { img: "Component 20.png"},
@@ -66,19 +68,13 @@ function App() {
     <div id="fullsite">
     
     
-    <Start></Start>
-    <div id="container">
-    <Interesting_info></Interesting_info>
-    <Slider images={imageArray} text={"РЕКОМЕНДАЦІЇ"}></Slider>
-    <Slider images={imageArray2} text={"НАЙКРАЩІ НАБОРИ"}></Slider>
-    <NewProducts></NewProducts>
-    <CardGroup arr={components}></CardGroup>
-    <Ideas_to_do></Ideas_to_do>
-    <Additional_recomendations></Additional_recomendations>
-    <Important_info></Important_info>
-   </div>
+    
+    <LogIn></LogIn>
+    {/* <Main_site></Main_site>
+   
    <ScrollToTopButton></ScrollToTopButton>
-   <Footersite></Footersite>
+   <Footersite></Footersite> */}
+
     </div>
   );
 }

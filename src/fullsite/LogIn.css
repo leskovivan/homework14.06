@@ -1,0 +1,151 @@
+.login_full{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.image-left{
+  background-image: url('login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 590px;
+  min-height: 939px;
+}
+.image-left h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    font-size: 32px;
+}
+.arrow-btn-NEW {
+  margin-left: 20px;
+  margin-top: 40px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+
+}
+.text-login{
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+}
+.block-txt form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px 64px;
+  margin: auto;
+  max-width: 480px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block-txt label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.block-txt input[type="text"],
+.block-txt input[type="password"] {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block-txt p {
+  font-size: 12px;
+  color: #444;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.block-txt a {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(100, 100, 100, 1);
+  text-decoration: underline;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.block-txt div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.block-txt button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.block-txt button[type="button"] {
+  width: 100%;
+  padding: 14px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.block-txt b {
+  display: block;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.password-field {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.info-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-left: 120px;
+}
